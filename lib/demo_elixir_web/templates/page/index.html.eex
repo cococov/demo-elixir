@@ -7,7 +7,7 @@
 </div>
 
 <form id="chat-form">
-  <input type="text" placeholder="Username" id="user-name" />
+  <input type="text" placeholder="Username" id="user-name" autocomplete="off"/>
   <textarea placeholder="Your message" id="user-msg"></textarea>
-  <button type="submit">Send</button>
+  <button type="submit" id="submit-button">Send</button>
 </form>
