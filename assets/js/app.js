@@ -12,4 +12,8 @@ import "../css/app.css"
 //     import {Socket} from "phoenix"
 //     import socket from "./socket"
 //
-import "phoenix_html"
+import "phoenix_html";
+import socket from './socket';
+import DemoElixir from "./demoElixir";
+
+DemoElixir.init(socket);
